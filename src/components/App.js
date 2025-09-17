@@ -9,7 +9,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         {isLoggedIn ? (
-        <h2>Welcome! You are logged in 🎉</h2>
+        <h2>You are logged in!</h2>
       ) : (
         <Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
       )}

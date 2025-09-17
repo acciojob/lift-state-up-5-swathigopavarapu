@@ -16,7 +16,7 @@ const Login = ({ setIsLoggedIn }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Login Form</h2>
+      <h2>Parent Component</h2>
       <input
         type="text"
         placeholder="Enter Username"
