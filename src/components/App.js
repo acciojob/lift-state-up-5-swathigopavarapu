@@ -11,7 +11,7 @@ const App = () => {
         {isLoggedIn ? (
         <h2>You are logged in!</h2>
       ) : (
-        <Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
+        <Login setIsLoggedIn={setIsLoggedIn} />
       )}
     </div>
   )
